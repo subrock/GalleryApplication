@@ -1,68 +1,42 @@
+# Gallery Applicaiton for Android
 
-Android DisplayingBitmaps Sample
-===================================
+Features
 
-Sample demonstrating how to load large bitmaps efficiently off the main UI thread,
-caching bitmaps (both in memory and on disk), managing bitmap memory and displaying
-bitmaps in UI elements such as ViewPager and ListView/GridView.
+FEA-001
+Use a gridview to display thumbnails from gallery. Source images from a shared amazon cloud. 
 
-Introduction
-------------
+FEA-002
+Click thumbnail and display image full screen
 
-This is a sample application for the Android Training class [Displaying Bitmaps Efficiently][1].
+FEA-003 
+Share/Send-to feature as background. External/Default crop apply. 
 
-It demonstrates how to load large bitmaps efficiently off the main UI thread, caching
-bitmaps (both in memory and on disk), managing bitmap memory and displaying bitmaps
-in UI elements such as ViewPager and ListView/GridView.
+FEA-004 
+Share/Send-to an email or text message. Use default external email and use default external text messager.
 
-[1]: http://developer.android.com/training/displaying-bitmaps/
+FEA-005
+Store feature that includes but not limited to;
+- Full size images to be used on computer, device or TV. 
+- Cups, Shirts and other eccessories. 
+- Prints of any size.
+- Actual Canvasses.
 
-Pre-requisites
---------------
+FEA-006 
+Locate a show. Keep a schedual of showings, address and link to google maps. 
 
-- Android SDK v22
-- Android Build Tools v22.0.1
-- Android Support Repository
+FEA-007 
+RSVP/Invite/Share feature for shows. 
 
-Screenshots
--------------
+FEA-008
+Artist Friends/Community functions. Not sure yet. 
 
-<img src="screenshots/1-gridview.png" height="400" alt="Screenshot"/> <img src="screenshots/2-detail.png" height="400" alt="Screenshot"/> 
+FEA-009 
+Download watermark versions for free.
 
-Getting Started
----------------
+Use-cases
 
-This sample uses the Gradle build system. To build this project, use the
-"gradlew build" command or use "Import Project" in Android Studio.
+USE-001
+Launch app and splash screen is displayed. 
 
-Support
--------
-
-- Google+ Community: https://plus.google.com/communities/105153134372062985968
-- Stack Overflow: http://stackoverflow.com/questions/tagged/android
-
-If you've found an error in this sample, please file an issue:
-https://github.com/googlesamples/android-DisplayingBitmaps
-
-Patches are encouraged, and may be submitted by forking this project and
-submitting a pull request through GitHub. Please see CONTRIBUTING.md for more details.
-
-License
--------
-
-Copyright 2014 The Android Open Source Project, Inc.
-
-Licensed to the Apache Software Foundation (ASF) under one or more contributor
-license agreements.  See the NOTICE file distributed with this work for
-additional information regarding copyright ownership.  The ASF licenses this
-file to you under the Apache License, Version 2.0 (the "License"); you may not
-use this file except in compliance with the License.  You may obtain a copy of
-the License at
-
-http://www.apache.org/licenses/LICENSE-2.0
-
-Unless required by applicable law or agreed to in writing, software
-distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
-WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.  See the
-License for the specific language governing permissions and limitations under
-the License.
+USE-002
+Back button exits app. Make navigation internal to app. (Like My Reading Log.) 
