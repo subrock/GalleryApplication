@@ -23,6 +23,11 @@ import android.support.v4.app.FragmentTransaction;
 import com.example.android.displayingbitmaps.BuildConfig;
 import com.example.android.displayingbitmaps.util.Utils;
 
+import java.io.FileOutputStream;
+import java.io.InputStream;
+import java.io.OutputStream;
+import java.net.URL;
+
 /**
  * Simple FragmentActivity to hold the main {@link ImageGridFragment} and not much else.
  */
@@ -41,5 +46,8 @@ public class ImageGridActivity extends FragmentActivity {
             ft.add(android.R.id.content, new ImageGridFragment(), TAG);
             ft.commit();
         }
+
+
+
     }
 }
